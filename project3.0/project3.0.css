@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em; 
+    color: gray;
+}
+
+
+
+.pimage1{
+    background-image: url(./image3.0/fantastic2.jpg) ;
+    min-height: 100%;
+}
+.pimage2{
+    background-image: url(./image3.0/fantastic1.jpg) ;
+    min-height: 400px;
+    margin: 0;
+
+}
+.pimage3{
+    background-image: url(./image3.0/fanstastic3.jpg) ;
+    min-height: 400px;
+    margin: 0;
+}
+
+.pimage1,
+.pimage2,
+.pimage3{
+    position: relative; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed; 
+
+}
+.ptext{
+    position: absolute;
+     top: 50%; 
+    width: 100%;
+    text-align: center;
+    color: black; 
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+.ptext .textbg{
+    background-color: grey;
+    color: white;
+    padding: 10px; 
+    border-radius: 5px;
+
+} 
+.section{
+    padding: 50px 80pxs;
+    text-align: center;
+}
+.section_light{
+    color: grey;
+    
+}
+.section_dark{
+    background-color: #282e34;
+    color: #ddd;
+    
+
+}

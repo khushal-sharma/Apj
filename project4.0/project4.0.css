@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #494743;
+} 
+
+
+
+.container{
+    background-image: url(./image/computer.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.content{
+    
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    
+}
+.content span{
+    font-size: 50px;
+   
+}
+.text1{
+    height: 200px;
+    width: 100%;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+.content1 h1 span{
+    font-size: 60px;
+}
+.courses .box{
+    /* border: 2px solid black;  */
+    margin: 30px;
+    box-shadow: 0px 5px 5px rgba(1, 1, 1, 0.2);
+    border-radius: 10px;
+
+    
+}
+.courses{
+    display: flex;
+    overflow: hidden;
+    margin: 0px 100px;
+    
+
+    
+}
+.box img{
+    height: 200px;
+    width: 350px;
+    margin: 10px;
+}
+.box p{
+    margin: 20px;
+    
+}
+.contact{
+    display: flex;
+    
+}
+.contact .con{
+    /* border: 2px solid black; */
+    padding: 10px;
+     
+
+}
+.contact  .contact1{
+    background-color: rgb(69, 109, 69);
+    color: white;
+    
+
+}
+.contact .contact2{
+    background-color: rgb(120, 61, 61);
+    color: white;
+}
+.contact h1{
+    margin-top: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.contact p{
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.lastline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
